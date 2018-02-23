@@ -1,0 +1,340 @@
+/*############# Imported Fonts ################3*/
+
+@font-face {
+    font-family: 'Rammetto One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Rammetto One Regular'), local('RammettoOne-Regular'), url(https://fonts.gstatic.com/s/rammettoone/v6/mh0uQ1tV8QgSx9v_KyEYPOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+@font-face {
+    font-family: 'Bungee';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bungee'), local('Bungee-Regular'), url(https://fonts.gstatic.com/s/bungee/v3/86NbnFpNqZ2MU9Gl0ca2YQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+@font-face {
+    font-family: 'Gloria Hallelujah';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gloria Hallelujah'), local('GloriaHallelujah'), url(https://fonts.gstatic.com/s/gloriahallelujah/v9/CA1k7SlXcY5kvI81M_R28cNDay8z-hHR7F16xrcXsJw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+@font-face {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url(https://fonts.gstatic.com/s/amaticsc/v11/DPPfSFKxRTXvae2bKDzp5FtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+@font-face {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Amatic SC Bold'), local('AmaticSC-Bold'), url(https://fonts.gstatic.com/s/amaticsc/v11/IDnkRTPGcrSVo50UyYNK7-gdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+@font-face {
+    font-family: 'Bungee Shade';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bungee Shade'), local('BungeeShade-Regular'), url(https://fonts.gstatic.com/s/bungeeshade/v3/HSW7pxPYXBWkq7OSnuXoeOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+
+
+
+/*############### Defaults ###### */
+
+header,
+footer,
+nav {
+    display: block;
+
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+}
+
+body {
+    background-image: url(cream_pixels.png)
+}
+
+
+
+/*###############  Nav Bar############*/
+
+nav {
+    width: 100%;
+    margin: 0;
+
+
+}
+
+nav ul {
+    background-color: #000406;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul.topnav li {
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    min-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3E3D8;
+    font-weight: bold;
+    font-family: "Bungee", cursive;
+}
+
+ul.topnav li a:hover {
+    background-color: ls;
+    color: #E3E3D8;
+}
+
+ul.topnav li.topnav-R {
+    float: right;
+}
+
+ul.topnav li.dropdownIcon {
+    display: none;
+}
+
+
+/*######### Main Page ###########*/
+
+header {
+    background-color: #000406;
+    height: auto;
+    margin: 0;
+    width: 100%
+}
+
+header img {
+    height: 150px;
+    width: auto;
+    float: left;
+
+}
+
+header h1 {
+    text-align: left center;
+    padding: 60px 0px;
+    font-family: "Amatic SC";
+    font-size: 70px;
+    letter-spacing: 4px;
+    margin: 0;
+    color: white;
+
+}
+
+div.banner {
+    background-image: url(food-background-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    margin: 0;
+    width: 100%;
+}
+
+div.banner h1 {
+    font-family: "Bungee", cursive;
+    font-size: 40 px;
+    text-align: right;
+    color: #E3E3D8;
+    padding: 15px;
+    margin: 0;
+}
+
+div.banner p {
+    font-family: "Bungee", cursive;
+    font-size: 25 px;
+    text-align: right;
+    color: #E3E3D8;
+    padding 20;
+    margin-right: 15px;
+
+}
+
+div.grid-container {
+    display: grid;
+    height: auto;
+    grid-gap: 15px 15px;
+    grid-template-columns: auto auto;
+    width: 100%
+}
+
+div.gridItem {
+    padding: 25px;
+    margin: 0;
+
+}
+
+div.gridItem h1 {
+    text-align: center;
+    padding: 25px;
+    font-family: "Bungee", cursive;
+}
+
+div.gridItem p {
+    text-align: center;
+    padding: 15px;
+    font-family: "Bungee", cursive;
+}
+
+/*############## Recipes  ##############*/
+div.macNCheese {
+    color: #000;
+}
+/*################# footer #############*/
+
+footer {
+    width: 100%;
+    background-color: #000406;
+    height: auto;
+    display: block;
+}
+
+div.foot-container {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+
+}
+
+li.icon {
+
+    padding: 20px;
+    list-style: none;
+    display: inline;
+}
+
+li.icon a {
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+
+}
+
+li.icon a:hover {
+    color: #72170C;
+}
+
+
+/*########Sign In Page################*/
+
+body.signInBody {
+    background-image: url(wood-grain-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container.signInContainer {
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+
+
+h2.signInHead {
+    font-family: "Amatic SC";
+    font-size: 70px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: -40px;
+
+}
+.card.signInCard {
+    padding: 40px 0px 20px;
+    background-image: url(cream_pixels.png);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+img.signInImg {
+    margin: auto;
+    padding: 0px 2rem 2rem;
+    display: block;
+    width: 60%;
+    border-radius: 20px;
+}
+
+form.signInForm {
+    max-width: 350px;
+    margin: auto;
+}
+button.signInBtn {
+    color: #fff;
+    background-color: #72170C;
+    width: 100%;
+    margin-bottom: 1.1rem;
+}
+
+
+/*############### mobile ##############*/
+
+@media screen and (max-width: 680px) {
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+    ul.topnav li.dropdownIcon {
+        display: block;
+        float: right;
+    }
+    ul.topnav.responsive li.dropdownIcon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    ul.topnav.responsive {
+        position: relative;
+    }
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+    }
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
+    div.grid-container {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    div.gridItem h1,
+    p {
+        width: 100%;
+        margin: 0;
+    }
+    .videoContainer iframe {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+   h2.signInHead {
+    font-family: "Amatic SC";
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: -20px;
+}
